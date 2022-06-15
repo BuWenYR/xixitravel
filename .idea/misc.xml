@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/drawable-hdpi/contact_bg_grey_with_corner.xml" value="0.1235" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/drawable-hdpi/maintab_1_selector.xml" value="0.1235" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/drawable/home_title_background.xml" value="0.1235" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/drawable/picture_setting_album_checkbox.xml" value="0.1235" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/drawable/rectangle_edittext.xml" value="0.1235" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_blog_detail.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_change_mineinfo.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_image.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_main.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_merchant.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_register.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_search_blog.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/activity_user_modify_password.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/album_item_header_bar.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/common_top_nar.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/dialog_mine_change_info.xml" value="0.11096014492753623" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/fragment_blog.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/fragment_collection.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/fragment_comments.xml" value="0.136" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/fragment_first.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/fragment_first_layer.xml" value="0.152" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/fragment_mine.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/item_album_pager.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/item_home_blog.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/item_image.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/item_popupwindows.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/list_item_blog.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/main.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/layout/tab_top.xml" value="0.1125" />
+        <entry key="..\:/Users/XiaoWang/AndroidStudioProjects/xixitravel/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1235" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

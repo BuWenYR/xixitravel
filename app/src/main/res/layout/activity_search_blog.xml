@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+   >
+
+
+        <RelativeLayout
+            android:id="@+id/rlSearch"
+            android:layout_width="match_parent"
+            android:layout_height="76dip"
+            android:background="@color/white"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageButton
+                android:id="@+id/image_btn_left"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/back_black_topbar"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="8dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/contact_bg_grey_with_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:layout_toRightOf="@id/image_btn_left">
+
+                <ImageView
+                    android:layout_width="19dp"
+                    android:layout_height="19dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@mipmap/icon_search" />
+
+                <EditText
+                    android:id="@+id/edtSearch"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autofillHints="请输入要搜索的内容"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:hint="请输入要搜索的内容"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:textColorHint="#9DA1A7"
+                    android:maxLines="1"
+                    android:textColor="#9DA1A7"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="8dp" />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/llResult"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rlSearch">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvSearchResult"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="12dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlNoData"
+            android:layout_width="0dip"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rlSearch">
+
+            <ImageView
+                android:id="@+id/igvNodata"
+                android:layout_width="220dp"
+                android:layout_height="152dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:contentDescription="@string/app_name"
+                android:src="@mipmap/nodata" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/igvNodata"
+                android:layout_centerHorizontal="true"
+                android:text="没有内容"
+                android:textColor="#73000000"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
